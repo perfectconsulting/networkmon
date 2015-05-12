@@ -1,8 +1,10 @@
-#raspberry-pi-networkmon
-A simple bash script to output the cpu temprature and load.
+raspberry-pi-tempmon
+====================.
+A simple bash script to monitor the network service.
 
 Setup
 -----
-copy the scripts to a local folder on the pi (in this case /home/pi)
-add the following entry to crontab /10 * * * * /home/pi/networkmon.sh >> /home/pi/networkmon.log
-restart the Raspberry Pi
+1. copy the scripts to a local folder on the pi (in this case /home/pi)
+2. add the following entry to crontab */10 * * * * /home/pi/networkmon.sh >> /home/pi/networkmon.log*
+3. restart the Raspberry Pi
+
