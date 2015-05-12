@@ -1,5 +1,5 @@
-#raspberry-pi-tempmon
-=====================
+raspberry-pi-networkmon
+=======================
 A simple bash script to monitor the network service.
 
 Setup
